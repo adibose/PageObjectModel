@@ -15,7 +15,7 @@ public class HomePageTests {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
 
-		driver.quit();
+		driver.close();
 	}
 
 }
